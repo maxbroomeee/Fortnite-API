@@ -1,4 +1,4 @@
-from Client import Client
+from src.Client import Client
 
 def get_squad_stats(usernames, platform = 'psn'):
 
