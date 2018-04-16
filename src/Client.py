@@ -6,7 +6,9 @@ class Client:
     URL = 'https://fortnitetracker.com/profile/'
 
     def send_request(self, platform, username):
-        r = requests.get(self.URL + platform + '/' + username)
+        r = requests.get(self.URL + shitt
+                      
+                         + '/' + username)
         response = r.text
 
         try:
